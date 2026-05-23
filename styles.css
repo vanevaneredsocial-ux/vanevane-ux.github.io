@@ -1,13 +1,12 @@
-/* RESET + FONDO COMPLETO */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   overflow-x: hidden;
 
   background-image:
-    url("patron-chispas.svg"),
-    url("fondo-helado.svg"),
-    linear-gradient(to bottom, #FCE448, #FF8800);
+    url("images/patron-chispas.svg"),
+    url("images/fondo-helado-mod-8.svg"),
+    linear-gradient(to bottom, #ffe957, #ff9317);
 
   background-repeat:
     repeat,
@@ -27,7 +26,7 @@ body {
 
 /* HEADER */
 .header {
-  background-color: #ADD21B;
+  background-color: #add022c8;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
@@ -490,3 +489,4 @@ html, body {
   z-index: 1;
 }
 } 
+
